@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.faq-answer {
+  display: none; /* Initially hide FAQ answers */
+}
+
+.faq-answer.hidden {
+  display: block; /* Show answer when clicked */
+}
+
+#formFeedback {
+  margin-top: 10px;
+}
